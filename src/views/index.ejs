@@ -12,7 +12,7 @@
                 class="form-control"
                 type="text"
                 name="title"
-                placeholder="Title"
+                placeholder="Nombre"
               />
             </div>
             <div class="form-group">
@@ -20,8 +20,15 @@
                 class="form-control"
                 name="description"
                 cols="80"
-                placeholder="Add a Description"
+                placeholder="Actor"
               ></textarea>
+            </div>
+
+            <div class="form-group">
+              <input type="text" placeholder="Cantidad de peliculas" />
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Genero" />
             </div>
             <button class="btn btn-primary" type="submit">
               Add
@@ -36,10 +43,10 @@
       <table class="table table-bordered table-hover">
         <thead>
           <tr>
-            <th>N°</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Operations</th>
+            <th>Nombre</th>
+            <th>Actor</th>
+            <th>Cantidad de Peliculas</th>
+            <th>Genero</th>
           </tr>
         </thead>
         <tbody>
